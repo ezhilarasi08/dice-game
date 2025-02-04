@@ -8,7 +8,10 @@ function App(){
     setVal(val);
   }
   return (
+    <>
+    <Dice diceVal={val} />
     <button onclick={rollDice}className='roll-btn'> Roll</button>
+    </>
   )
 }
 export default App
